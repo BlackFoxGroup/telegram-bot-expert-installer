@@ -1,0 +1,23 @@
+{
+  "name": "telegram-bot-expert-installer",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/server",
+    "apps/web",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,web -c cyan,magenta \"npm run dev -w @expert/server\" \"npm run dev -w @expert/web\"",
+    "build": "npm run build -w @expert/shared && npm run build -w @expert/web && npm run build -w @expert/server",
+    "start": "npm run start -w @expert/server",
+    "test": "npm run test -w @expert/server",
+    "typecheck": "npm run typecheck -w @expert/shared && npm run typecheck -w @expert/server && npm run typecheck -w @expert/web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

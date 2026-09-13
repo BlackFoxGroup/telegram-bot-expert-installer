@@ -1,0 +1,8 @@
+node_modules
+dist
+data/*.key
+data/session-*.json
+data/logs
+data/backups
+.env
+*.tgz
