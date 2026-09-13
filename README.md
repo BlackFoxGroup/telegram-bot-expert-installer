@@ -58,6 +58,25 @@ Website: [foxnext.net](https://foxnext.net)
 Download page: [foxnext.net/en/download.html](https://foxnext.net/en/download.html)  
 Source: [github.com/BlackFoxGroup/telegram-bot-expert-installer](https://github.com/BlackFoxGroup/telegram-bot-expert-installer)
 
+## Download
+
+Download the Expert source ZIP from GitHub:
+
+[telegram-bot-expert-installer.zip](https://github.com/BlackFoxGroup/telegram-bot-expert-installer/raw/main/downloads/telegram-bot-expert-installer.zip)
+
+The ZIP contains the Expert source only. It does not contain passwords, tokens, SSH keys, or session files.
+
+## Easy install from Terminal (Windows)
+
+Install [Node.js LTS](https://nodejs.org), open PowerShell, then run:
+
+```powershell
+irm https://raw.githubusercontent.com/BlackFoxGroup/telegram-bot-expert-installer/main/deploy/install-expert.ps1 | iex
+```
+
+The script downloads the Expert, installs packages, builds the app, and opens `http://127.0.0.1:4780/`.
+The local copy is stored in `%LOCALAPPDATA%\TelegramBotExpert`.
+
 ## Requirements
 
 - Windows 10 or 11
@@ -112,6 +131,25 @@ Telegram Bot Expert Installer is maintained by [Black Fox Group](https://github.
 وب‌سایت: [foxnext.net](https://foxnext.net)  
 صفحه دانلود: [foxnext.net/en/download.html](https://foxnext.net/en/download.html)  
 سورس: [github.com/BlackFoxGroup/telegram-bot-expert-installer](https://github.com/BlackFoxGroup/telegram-bot-expert-installer)
+
+## دانلود
+
+سورس اکسپرت را از گیت‌هاب به‌صورت ZIP بگیرید:
+
+[telegram-bot-expert-installer.zip](https://github.com/BlackFoxGroup/telegram-bot-expert-installer/raw/main/downloads/telegram-bot-expert-installer.zip)
+
+این فایل فقط سورس اکسپرت است. رمز، توکن، کلید SSH و فایل نشست داخل آن نیست.
+
+## نصب آسان از ترمینال (ویندوز)
+
+ابتدا [Node.js LTS](https://nodejs.org) را نصب کنید. سپس PowerShell را باز کنید و این دستور را بزنید:
+
+```powershell
+irm https://raw.githubusercontent.com/BlackFoxGroup/telegram-bot-expert-installer/main/deploy/install-expert.ps1 | iex
+```
+
+اسکریپت اکسپرت را دانلود می‌کند، بسته‌ها را نصب می‌کند، برنامه را می‌سازد و صفحه را در `http://127.0.0.1:4780/` باز می‌کند.
+نسخه محلی در `%LOCALAPPDATA%\TelegramBotExpert` ذخیره می‌شود.
 
 ## پیش‌نیاز
 
