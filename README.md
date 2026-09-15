@@ -101,14 +101,6 @@ Start-Expert.bat
 
 Persian · English · Russian · Chinese
 
-## Security
-
-This package contains source code only. It does not contain passwords, bot tokens, SSH keys, or session files.
-
-- Do not publish `data/`, `.env`, or `master.key`.
-- Secrets stay on your computer, encrypted by the Expert.
-- Replace a token immediately if it was ever shared.
-
 ## License and credit
 
 Telegram Bot Expert Installer is maintained by [Black Fox Group](https://github.com/BlackFoxGroup).
@@ -170,14 +162,6 @@ irm https://raw.githubusercontent.com/BlackFoxGroup/telegram-bot-expert-installe
 ## زبان‌ها
 
 فارسی · انگلیسی · روسی · چینی
-
-## امنیت
-
-این بسته فقط سورس برنامه است. رمز، توکن ربات، کلید SSH و فایل نشست داخل آن نیست.
-
-- پوشه `data/`، فایل `.env` و `master.key` را منتشر نکنید.
-- اطلاعات حساس روی رایانه شما می‌ماند و رمزنگاری می‌شود.
-- اگر توکن جایی دیده شد، فوراً آن را عوض کنید.
 
 ## سازنده
 
