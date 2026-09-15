@@ -25,7 +25,10 @@ function Contact() {
   const { t } = useI18n();
   return (
     <section className="contact install-block">
-      <h2>{t("contact")}</h2>
+      <div className="contact-head">
+        <img className="contact-logo" src="/contact-logo.png" alt="Black Fox Group" />
+        <h2>{t("contact")}</h2>
+      </div>
       <p>{t("version")} : 1.0</p>
       <p>{t("maker")} : Black Fox Group</p>
       <p>{t("site")} : <a href="https://foxnext.net/" target="_blank" rel="noreferrer">https://foxnext.net/</a></p>
@@ -83,7 +86,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <div className="app">
         <aside className="side">
           <div className="brand">
-            <img src="/logo.jpg" alt="Black Fox Group" width={56} height={56} />
+            <img className="brand-logo" src="/logo.png" alt="Telegram Bot Expert Installer" />
             <div>
               <strong>Telegram Bot Expert</strong>
               <p className="muted">Black Fox Group</p>
@@ -110,7 +113,7 @@ function Welcome() {
   const { t } = useI18n();
   return (
     <div className="hero">
-      <img className="logo-lg" src="/logo.jpg" alt="Black Fox Group" />
+      <img className="logo-lg" src="/logo.png" alt="Telegram Bot Expert Installer" />
       <h1>Telegram Bot Expert</h1>
       <p>{t("welcome")}</p>
     </div>

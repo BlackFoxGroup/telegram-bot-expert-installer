@@ -82,6 +82,8 @@ html[dir="ltr"] .lang-menu { left: auto; right: 0; }
 }
 .contact a:not(.btn) { color: var(--accent); }
 .contact .btn { display: inline-flex; align-items: center; text-decoration: none; margin-top: 12px; }
+.contact-head { display: flex; flex-direction: column; align-items: flex-start; }
+.contact-logo { width: 140px; height: auto; display: block; margin: 0 0 10px; object-fit: contain; }
 .app { display: grid; grid-template-columns: 240px 1fr; flex: 1; }
 .side {
   background: var(--glass); backdrop-filter: blur(16px);
@@ -90,9 +92,9 @@ html[dir="ltr"] .lang-menu { left: auto; right: 0; }
 .side a { display: flex; align-items: center; gap: 8px; color: var(--fg); text-decoration: none; padding: 12px 10px; border-radius: 10px; min-height: 44px; }
 .side a.active, .side a:hover { background: var(--card); }
 .main { padding: 28px; max-width: 1100px; }
-.brand { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
-.brand img, .logo-lg { border-radius: 50%; object-fit: cover; }
-.logo-lg { width: 96px; height: 96px; }
+.brand { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-bottom: 16px; text-align: center; }
+.brand-logo { width: 148px; height: auto; object-fit: contain; }
+.logo-lg { width: 180px; height: auto; object-fit: contain; }
 .btn { position: relative; z-index: 2; }
 .install-block { margin-top: 36px; }
 .install-block h2 { font-size: 1.4rem; margin-bottom: 8px; }
